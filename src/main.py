@@ -34,3 +34,5 @@ def upload():
         image.save(fname)
         return send_file(fname)
 
+
+application.run("0.0.0.0", 8000)
